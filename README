@@ -1,1 +1,20 @@
+Rapport des Ateliers JavaScript
 
+Atelier 1: Gestion de Véhicules
+1) Fonction Constructeur Véhicule:La création d'une fonction constructeur Vehicule a été créée avec les attributs modele, marque, année, type et carburant.
+2) Liste des Véhicules: On a initialiser Une liste de véhicules avec ses parametres.
+3) Mécanisme d'Héritage: La classe Véhicule a été utilisée pour implémenter le mécanisme d'héritage avec les classes Hyundai et Ford.
+4) Tri et Affichage des Véhicules: Les véhicules ont été triés par année croissante puis on les a affichés.
+
+
+Atelier 2: Gestion des Étudiants et des Professeurs
+1) Création des Objets Étudiant et Professeur: Deux objets natifs Étudiant et Professeur ont été créés avec les attributs appropriés.
+2) Ajout de Méthodes: Une méthode étudier() a été ajoutée à l'objet Étudiant, et une méthode enseigner() a été ajoutée à l'objet Professeur.
+3) Tri des Étudiants: Les étudiants ont été triés par ordre alphabétique des noms et prénoms.
+
+
+Atelier 3: Manipulation des Classes en ECMAScript 6
+1) Classe Vecteur2D: Une classe Vecteur2D a été définie avec un constructeur fournissant les coordonnées par défaut d'un vecteur dans le plan.
+2) Méthodes et Surcharge: La classe Vecteur2D a été enrichie avec des méthodes d'affichage et de surcharge de l'addition de deux vecteurs dans le plan.
+3) Classes Rectangle et Carré: Des classes Rectangle et Carré ont été définies avec héritage et surcharge.
+4) Classes Point et Segment: Des classes Point et Segment ont été définies pour représenter des points et des segments dans le plan.
