@@ -10,11 +10,16 @@ Atelier 1: Gestion de Véhicules
 Atelier 2: Gestion des Étudiants et des Professeurs
 1) Création des Objets Étudiant et Professeur: Deux objets natifs Étudiant et Professeur ont été créés avec les attributs appropriés.
 2) Ajout de Méthodes: Une méthode étudier() a été ajoutée à l'objet Étudiant, et une méthode enseigner() a été ajoutée à l'objet Professeur.
-3) Tri des Étudiants: Les étudiants ont été triés par ordre alphabétique des noms et prénoms.
+3) Tri des Professeurs: Les Professeurs ont été triés par ordre alphabétique des noms. ( j'ai trié les professeurs au lieu des etudiants )
 
 
 Atelier 3: Manipulation des Classes en ECMAScript 6
 1) Classe Vecteur2D: Une classe Vecteur2D a été définie avec un constructeur fournissant les coordonnées par défaut d'un vecteur dans le plan.
-2) Méthodes et Surcharge: La classe Vecteur2D a été enrichie avec des méthodes d'affichage et de surcharge de l'addition de deux vecteurs dans le plan.
+2) Méthodes et Surcharge: La classe Vecteur2D contient des méthodes d'affichage et de surcharge de l'addition de deux vecteurs dans le plan.
 3) Classes Rectangle et Carré: Des classes Rectangle et Carré ont été définies avec héritage et surcharge.
 4) Classes Point et Segment: Des classes Point et Segment ont été définies pour représenter des points et des segments dans le plan.
+
+
+Atelier 4: Création d'une interface d'un Mini Blog
+1) On a commencé par le HTML pour mettre en place notre structure de squelette, en introduisant un header qui contient le titre et deux boutons "Se Connecter" et "S'inscrire" et apres un champs de texte dont on peux ecrire notre texte et un boutton " Enregistrer " afin que les données seront stockées dans un tableau qui affiche le contenue et la date d'ajout , ces derniers ils seront placés au dessous de la zone de saisie "blogText"
+2) En ce qui concerne JavaScript, on a développé des classes ( BlogPost - Blog ) avec des attributs et des methodes 
