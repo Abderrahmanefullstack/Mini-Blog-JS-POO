@@ -7,8 +7,8 @@ class BlogPost {
 
     // Méthode pour afficher l'article de blog dans le DOM
     display() {
-        const blogPosts = document.getElementById('blogPosts');
-        const postElement = document.createElement('div');
+        var blogPosts = document.getElementById('blogPosts');
+        var postElement = document.createElement('div');
         postElement.classList.add('post');
         postElement.innerHTML = `
             <div class="post-content">${this.text}</div>
@@ -17,10 +17,10 @@ class BlogPost {
         blogPosts.appendChild(postElement);
 
         // Ajouter la nouvelle entrée dans le tableau
-        const blogTableBody = document.getElementById('blogTableBody');
-        const newRow = blogTableBody.insertRow();
-        const cell1 = newRow.insertCell(0);
-        const cell2 = newRow.insertCell(1);
+        var blogTableBody = document.getElementById('blogTableBody');
+        var newRow = blogTableBody.insertRow();
+        var cell1 = newRow.insertCell(0);
+        var cell2 = newRow.insertCell(1);
         cell1.textContent = this.text;
         cell2.textContent = this.date;
     }
@@ -34,22 +34,22 @@ class Blog {
 
     // Méthode pour ajouter un nouvel article de blog
     addPost(text) {
-        const post = new BlogPost(text);
+        var post = new BlogPost(text);
         this.posts.push(post);
         post.display();
     }
 }
 
 // Instance de la classe Blog
-const blog = new Blog();
+var blog = new Blog();
 
 // Récupérer les éléments du DOM
-const blogTextArea = document.getElementById('blogText');
-const saveButton = document.getElementById('saveBtn');
+var blogTextArea = document.getElementById('blogText');
+var saveButton = document.getElementById('saveBtn');
 
 // Ajouter un écouteur d'événements au bouton "Enregistrer"
 saveButton.addEventListener('click', () => {
-    const text = blogTextArea.value;
+    var text = blogTextArea.value;
     if (text.trim() !== '') {
         blog.addPost(text);
         blogTextArea.value = ''; // Effacer le champ de texte après l'enregistrement
